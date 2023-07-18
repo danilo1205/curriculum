@@ -10,10 +10,19 @@ section{
 .infos{
   margin: 20px;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
   align-items: center;
+  width: 50%;
 }
 
 img{
+  height: 400px;
   margin: 40px;
   box-shadow: 5px 5px 37px 17px #000000;
+
+}
+
+.localizacao{
+  box-shadow: 5px 5px 15px 10px #000000;
 }

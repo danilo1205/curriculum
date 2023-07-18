@@ -10,6 +10,7 @@ import { AbillitiesComponent } from './component/infos/abillities/abillities.com
 import { PersonalComponent } from './component/infos/personal/personal.component';
 import { ContactComponent } from './component/infos/contact/contact.component';
 import { RodapeComponent } from './component/rodape/rodape.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { RodapeComponent } from './component/rodape/rodape.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

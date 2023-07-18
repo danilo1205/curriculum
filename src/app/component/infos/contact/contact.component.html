@@ -33,9 +33,42 @@
 
       <div>
         <input type="checkbox" name="ap" id="ap" value="ligacao" >
-        <label for="ap" class="check">Ligação</label>
+        <label for="ap" class="check">Ligação</label> <br>
       </div>
     </div>
+    <br>
+
+    <fieldset>
+      <legend><strong>Agende uma visita</strong></legend>
+      <div class="visita">
+
+        <div class="endereco formulario">
+          <label for="cep">CEP</label>
+          <input type="text" name="cep" id="cep" class="input" (blur)="buscarEndereco()">
+
+          <label for="log">Logradouro</label>
+          <input type="text" name="log" id="log" class="input">
+
+          <label for="bairro">Bairro</label>
+          <input type="text" name="bairro" id="bairro" class="input">
+
+          <label for="numero">Numero</label>
+          <input type="text" name="numero" id="numero" class="input">
+
+          <label for="comp">Complemento</label>
+          <input type="text" name="comp" id="comp" class="input">
+
+          <label for="city">Cidade</label>
+          <input type="text" name="city" id="city" class="input">
+
+          <label for="uf">UF</label>
+          <input type="text" name="uf" id="uf" class="input">
+
+        </div>
+      </div>
+    </fieldset>
+
+
 
     <input type="button" value="Enviar" class="botao">
 
