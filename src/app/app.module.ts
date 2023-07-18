@@ -9,6 +9,7 @@ import { WhoComponent } from './component/infos/who/who.component';
 import { AbillitiesComponent } from './component/infos/abillities/abillities.component';
 import { PersonalComponent } from './component/infos/personal/personal.component';
 import { ContactComponent } from './component/infos/contact/contact.component';
+import { RodapeComponent } from './component/rodape/rodape.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ContactComponent } from './component/infos/contact/contact.component';
     WhoComponent,
     AbillitiesComponent,
     PersonalComponent,
-    ContactComponent
+    ContactComponent,
+    RodapeComponent
   ],
   imports: [
     BrowserModule,
