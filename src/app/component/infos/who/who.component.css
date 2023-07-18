@@ -1,0 +1,19 @@
+section{
+  background-color: #3c99a1;
+  color: #ffffff;
+  line-height: 23px;
+}
+.who{
+  display: flex;
+}
+
+.infos{
+  margin: 20px;
+  padding: 20px;
+  align-items: center;
+}
+
+img{
+  margin: 40px;
+  box-shadow: 5px 5px 37px 17px #000000;
+}
