@@ -1,8 +1,20 @@
-.footer{
+.rodape{
+  display: flex;
+  background-image: linear-gradient(#3c99a1, #000000);
+  height: 100px;
+  color: #ffffff;
+  justify-content: space-around;
+  align-items: center;
+}
 
-  background-color: black;
+.logos{
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
 }
 
 .logo{
-  width: 30px;
+  width: 50px;
 }
+
+
